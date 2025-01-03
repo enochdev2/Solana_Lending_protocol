@@ -11,7 +11,7 @@ use instructions::*;
 declare_id!("6Wxo7wa72xkz5CKA9UWPTzn8Nmz6j55SfFjSYn8fewoV");
 
 #[program]
-pub mod llrt {
+pub mod lending_protocol {
     use super::*;
 
     pub fn initialize_vault(ctx: Context<InitializeVault>) -> Result<()> {
